@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff0c138c">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Create a To Do"
+        android:textColor="#ffffffff"
+        android:textSize="40sp"/>
+
+    <!-- Name Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"
+        android:text="Todo Name"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"/>
+
+    <!-- Input Name -->
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="15dp"
+        android:singleLine="true"
+        android:background="#f9d6fdf8"
+        android:padding="10dp"
+        android:textColor="#ff0e0305"/>
+
+    <!-- Location Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"
+        android:text="Location"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"/>
+
+
+    <!-- Location Price -->
+    <EditText
+        android:id="@+id/inputLocation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="15dp"
+        android:singleLine="true"
+        android:inputType="text"
+        android:background="#f9d6fdf8"
+        android:padding="10dp"
+        android:textColor="#ff0e0305"/>
+
+    <!-- Time Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"
+        android:text="Time"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"/>
+    <!-- time  -->
+    <EditText
+        android:id="@+id/timePicker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="15dp"
+        android:singleLine="true"
+        android:inputType="time"
+        android:background="#f9d6fdf8"
+        android:padding="10dp"
+        android:textColor="#ff0e0305"/>
+
+
+    <!-- Date label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"
+        android:text="Date"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"/>
+
+
+    <!-- Date  -->
+    <EditText android:id="@+id/datePicker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="15dp"
+        android:singleLine="true"
+        android:inputType="date"
+        android:background="#f9d6fdf8"
+        android:padding="10dp"
+        android:textColor="#ff0e0305"/>
+
+
+    <!-- Button Create to do -->
+    <Button android:id="@+id/btnCreateTodo"
+        android:layout_marginTop="50px"
+        android:text="Add To Do"
+        android:textColor="#241CFF"
+        android:textSize="20sp"
+        android:layout_width="247dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#23A83E"
+        android:shadowDx="-3"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_gravity="center"
+        android:layout_above="@+id/AddButton"
+        android:layout_centerHorizontal="true"></Button>
+</LinearLayout>
+</ScrollView>

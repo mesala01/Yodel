@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ff0f0b75" >
+
+     <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_alignParentBottom="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Register"
+        android:textColor="#ffffffff"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Name"
+            android:textStyle="bold"
+            android:textColor="#ffffffff"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/registerName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your full name address here"
+            android:background="#f9d6fdf8"
+            android:padding="10dp"
+            android:inputType="textEmailAddress"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textStyle="bold"
+            android:textColor="#ffffffff"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/registerEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your email address here"
+            android:background="#f9d6fdf8"
+            android:padding="10dp"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Password"
+            android:textStyle="bold"
+            android:textColor="#ffffffff"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/registerPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your password"
+            android:background="#f9d6fdf8"
+            android:padding="10dp"
+            android:password="true"/>
+        <TextView
+            android:id="@+id/register_error"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textColor="#ffffffff"/>
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="#ff140bba"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:background="#ffffdb61"/>
+
+
+         <Button
+             android:id="@+id/btnLinkToLoginScreen"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="20dp"
+             android:text="Already have an account? Login!"
+             android:textColor="#ffffdb61"
+             android:textSize="20sp"
+             android:paddingBottom="10dp"/>
+
+
+
+     </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

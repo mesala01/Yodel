@@ -1,0 +1,101 @@
+
+
+<RelativeLayout
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ff3d3fad">
+    <TextView
+     android:textSize="30sp"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:text="Hello Laura!"
+     android:textColor="#ffffffff"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="false">
+
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="40px"
+        android:paddingRight="35px"
+        android:background="@drawable/yodel_logo"
+        android:layout_gravity="center_vertical">
+
+
+    <Button
+
+        android:id="@+id/addTodoButton"
+        android:layout_marginBottom="10px"
+        android:text="Add Todo Task "
+        android:textColor="#241CFF"
+        android:textSize="20sp"
+        android:layout_width="247dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#23A83E"
+        android:shadowDx="-3"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_gravity="center"
+        android:layout_above="@+id/AddButton"
+        android:layout_centerHorizontal="true"></Button>
+
+    <Button
+        android:layout_marginTop="50px"
+        android:id="@+id/viewTodoList"
+        android:text="My Todo List"
+        android:textColor="#241CFF"
+        android:textSize="20sp"
+        android:layout_width="247dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#23A83E"
+        android:shadowDx="-3"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_gravity="center"
+        android:layout_above="@+id/AddButton"
+        android:layout_centerHorizontal="true"></Button>
+
+        <Button
+            android:layout_marginTop="50px"
+            android:text="My ToBuy List"
+            android:textColor="#FF8D29"
+            android:textSize="20sp"
+            android:id="@+id/viewTobuyList"
+            android:layout_width="247dp"
+            android:layout_height="40dp"
+            android:background="@drawable/buttontobuy"
+            android:shadowColor="#1EA8A3"
+            android:shadowDx="-3"
+            android:shadowDy="0"
+            android:layout_gravity="center"
+            android:shadowRadius="5" > </Button>
+      <Button
+            android:layout_marginTop="50px"
+            android:text="Add ToBuy Item"
+            android:textColor="#FF8D29"
+            android:textSize="20sp"
+            android:id="@+id/addTobuyItem"
+            android:layout_width="247dp"
+            android:layout_height="40dp"
+            android:background="@drawable/buttontobuy"
+            android:shadowColor="#1EA8A3"
+            android:shadowDx="-3"
+            android:shadowDy="0"
+            android:layout_gravity="center"
+            android:shadowRadius="5">
+          </Button>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

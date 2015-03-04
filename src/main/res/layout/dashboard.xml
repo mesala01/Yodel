@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/yodel_logo"
+    android:weightSum="1">
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO YODEL"
+        android:textStyle="bold"
+        android:textColor="#ffe3bd41"
+        android:textSize="50dip"
+        android:gravity="center"
+        android:layout_marginTop="20dip"/>
+
+    <RelativeLayout
+
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom">
+
+    <Button android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:text="Continue"
+        android:textSize="20sp"
+        android:textColor="#ff0f0b75"
+        android:textStyle="bold"
+        android:id="@+id/btnContinue"
+        android:textAlignment="center"
+        android:width="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        </Button>
+
+        <Button android:layout_width="110dp"
+            android:layout_height="48dp"
+            android:text="About Yodel"
+            android:textSize="20sp"
+            android:textColor="#ffffdb61"
+            android:textStyle="bold"
+            android:id="@+id/btnInfo"
+            android:textAlignment="center"
+            android:width="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+        </Button>
+    </RelativeLayout>
+
+
+</LinearLayout>
